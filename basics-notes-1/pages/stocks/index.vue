@@ -18,5 +18,6 @@ export default {
       this.$router.push("/stocks/" + this.ticker);
     },
   },
+  layout: "tickers",
 };
 </script>
